@@ -1,0 +1,21 @@
+---
+
+name: AI
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - jupyterlab
+  - pandas
+  - seaborn
+  - scikit-learn
+  - statsmodels
+  - xlrd
+  - graphviz
+  - python-graphviz
+  - imbalanced-learn
+  - kneed
+  - pip
+  - pip:
+      - mlrose_hiive
+      - mlrose
